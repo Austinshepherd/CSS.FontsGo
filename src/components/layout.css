@@ -598,6 +598,7 @@ code {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
 }
+
 pre code {
   background: none;
   line-height: 1.42;
@@ -615,8 +616,75 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+    width: 100% !important;
+
   }
 }
+
+
+
+/* Custom!!!!!! */
+body{
+  text-align: center;
+  width: 100%;
+  padding: none;
+  margin: none;
+  width: 100%;
+}
+
+
+textarea{
+  position: fixed;
+  resize: none;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: rgb(73, 73, 73);
+  width: 64%;
+  left: auto;
+  right: 15.5%;
+  height: 150px;
+ 
+ 
+
+
+}
+
+.textarea-border{
+  position: fixed;
+  background-color: rgb(73, 73, 73);
+  padding: 10px;
+  width: 65%;
+  height: 165px;
+  right: 50%;
+  left: 20%;
+  border-radius: 20px;
+  text-align: center;
+  top: 200px;
+  box-shadow: hsla(0, 0%, 2%, 0.8);
+
+  
+  
+}
+.title_container{
+  width: 100%;
+  position: fixed;
+  
+  
+}
+.SiteTitle{
+    
+}
+
