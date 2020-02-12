@@ -1,3 +1,20 @@
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+    width: 100% !important;
+
+  }
+}
+
+
+
+
+
+
+
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -625,13 +642,6 @@ pre tt:after {
 
 
 
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-    width: 100% !important;
-
-  }
-}
 
 
 
@@ -652,12 +662,14 @@ textarea{
   border-width: 4px;
   border-radius: 10px;
   border-color: rgb(73, 73, 73);
-  width: 64%;
-  left: auto;
-  right: 15.5%;
-  height: 150px;
- 
- 
+  width: 716px;
+  top: 208px;
+  left: 20.09%;
+  right: auto;
+  height: 110px;
+  color: rgb(58, 58, 58);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-indent: 10px;
 
 
 }
@@ -666,8 +678,8 @@ textarea{
   position: fixed;
   background-color: rgb(73, 73, 73);
   padding: 10px;
-  width: 65%;
-  height: 165px;
+  width: 720px;
+  height: 125px;
   right: 50%;
   left: 20%;
   border-radius: 20px;
@@ -685,6 +697,63 @@ textarea{
   
 }
 .SiteTitle{
-    
+    position:  fixed;
+    left: 20%;
+    top: 30px;
+    font-size: 90px;
+    color: rgb(54, 54, 54);
+}
+.SiteSubTitle{
+  position: fixed;
+  left: 20%;
+  font-size: 26px;
+  top: 110px;
+  color: rgb(67, 135, 180);
+}
+footer{
+  position: relative;
+  margin-top: 1200px;
+  background-color: rgb(67, 135, 180);
+  height: 100px;
+}
+.input_lbl{
+  position: fixed;
+  left: 20%;
+  top: 170px;
+  color: grey;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.pride_msg{
+  padding-top: 60px;
+  position: relative;
+  color: rgb(248, 248, 236);
+  
+}
+textarea:focus {
+  outline-width: 0;
 }
 
+
+
+
+
+
+
+
+/*@media*/
+
+@media only screen and (max-width: 1100px) {
+  .textarea-border{
+    width: 65% !important;
+   
+  
+    
+    
+  }
+  textarea{
+     border-color: rgb(73, 73, 73);
+    width: 64%;
+   
+  
+  }
+}

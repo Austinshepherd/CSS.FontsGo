@@ -11,7 +11,7 @@ const IndexPage = () => (
     </div>
     <div className="form_container">
       <form>
-        <p>Type here:</p>
+        <p className="input_lbl">Type here:</p>
         <div class="textarea-border">
         <textarea rows="5" cols="120"></textarea>
         </div>
