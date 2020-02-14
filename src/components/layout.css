@@ -733,7 +733,35 @@ textarea:focus {
   outline-width: 0;
 }
 
-
+.cardOne{
+  background-color: aqua;
+  width: 250px;
+  height: 350px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 450px;
+}
+.cardTwo{
+  background-color: aqua;
+  width: 250px;
+  height: 350px;
+  display: block;
+ 
+  float: right;
+  margin: auto;
+  margin-top: 450px;
+}
+.cardThee{
+  background-color: aqua;
+  width: 250px;
+  height: 350px;
+  display: block;
+  float: left;
+  
+  margin: auto;
+  margin-top: 450px;
+}
 
 
 

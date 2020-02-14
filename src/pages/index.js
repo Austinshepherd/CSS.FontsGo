@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import CardOne from "../components/card"
 
 const IndexPage = () => (
   <Layout>
@@ -12,11 +13,12 @@ const IndexPage = () => (
     <div className="form_container">
       <form>
         <p className="input_lbl">Type here:</p>
-        <div class="textarea-border">
+        <div className="textarea-border">
         <textarea rows="5" cols="120"></textarea>
         </div>
       </form>
     </div>
+    <CardOne />
   </Layout>
 )
 
