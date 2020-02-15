@@ -1,9 +1,9 @@
 import React from "react"
 import "../components/layout"
 
-const CardOne = () => (
-    <div className="Cards_A">
-    <div className="cardOne">
+const CardTwo = () => (
+    <div className="Cards_B">
+    <div className="cardFour">
         <div className="card_container">
             <div className="output_card_background">
              <ul>
@@ -13,7 +13,7 @@ const CardOne = () => (
         </div>
     </div>
 
-    <div className="cardTwo">
+    <div className="cardFive">
     <div className="card_container">
         <div className="output_card_background">
          <ul>
@@ -23,7 +23,7 @@ const CardOne = () => (
     </div>
 </div>
 
-<div className="cardThree">
+<div className="cardSix">
         <div className="card_container">
             <div className="output_card_background">
              <ul>
@@ -35,4 +35,4 @@ const CardOne = () => (
     </div>
 ) 
 
-export default CardOne
+export default CardTwo
