@@ -664,7 +664,7 @@ textarea{
   border-color: rgb(73, 73, 73);
   width: 716px;
   top: 208px;
-  left: 20.15%;
+  left: 20%;
   right: auto;
   height: 110px;
   color: rgb(58, 58, 58);
@@ -678,7 +678,7 @@ textarea{
   padding: 10px;
   width: 720px;
   height: 125px;
-  right: 50%;
+  right: auto;
   left: 20%;
   border-radius: 20px;
   text-align: center;
@@ -834,6 +834,7 @@ textarea:focus {
   textarea{
      border-color: rgb(73, 73, 73);
     width: 64%;
+
    
   
   }
@@ -860,20 +861,22 @@ textarea:focus {
 
   }
   textarea{
-    top: 100px !important;
+    top: 80px !important;
+    left: 20.3%;
   }
   .textarea-border{
-    top: 95px !important;
+    top: 75px !important;
     
   }
   h1{
     font-size: 40px !important;
+    top: 10px !important;
   }
   p.SiteSubTitle{
     text-align: center !important;
     margin-right: 50px !important;
-    font-size: 18px !important;
-    margin-top: -40px;
+    font-size: 13px !important;
+    top: 40px;
   }
   .Cards_A{
      flex-direction: column-reverse !important;
