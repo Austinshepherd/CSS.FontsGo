@@ -1,8 +1,12 @@
 import React from "react"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import CardOne from "../components/card"
 import CardTwo from "../components/cardTwo"
+
+
+
 
 const IndexPage = () => (
   <Layout>
@@ -26,4 +30,7 @@ const IndexPage = () => (
   </Layout>
 )
 
+
+
 export default IndexPage
+

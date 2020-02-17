@@ -6,9 +6,9 @@ const CardTwo = () => (
     <div className="cardFour">
         <div className="card_container">
             <div className="output_card_background">
-             <ul>
-            {/*output*/} 
-             </ul>
+             <div>
+
+             </div>
             </div>
         </div>
     </div>
@@ -17,7 +17,9 @@ const CardTwo = () => (
     <div className="card_container">
         <div className="output_card_background">
          <ul>
-        {/*output*/} 
+        <div>
+
+        </div> 
          </ul>
         </div>
     </div>
@@ -26,9 +28,8 @@ const CardTwo = () => (
 <div className="cardSix">
         <div className="card_container">
             <div className="output_card_background">
-             <ul>
-            {/*output*/} 
-             </ul>
+             <div>
+                </div>
             </div>
         </div>
     </div>
