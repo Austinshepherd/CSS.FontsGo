@@ -844,6 +844,7 @@ textarea:focus {
   background-color: white;
   height: 200px;
   margin: auto;
+  margin-top: 20px;
   width: 90%;
   text-align: center;
 }
