@@ -664,7 +664,7 @@ textarea{
   border-color: rgb(73, 73, 73);
   width: 716px;
   top: 208px;
-  left: 20%;
+  left: 20.103%;
   right: auto;
   height: 110px;
   color: rgb(58, 58, 58);
@@ -705,7 +705,7 @@ textarea{
   position: fixed;
   left: 20%;
   font-size: 26px;
-  top: 110px;
+  top: 114px;
   color: rgb(67, 135, 180);
 }
 footer{
@@ -734,10 +734,20 @@ textarea:focus {
 
 .Cards_A{
   margin-top: 400px;
-  margin-right: 100px;
+  margin-right: 500px;
+  margin-left: 0px;
   display: flex;
   justify-content: center;
 }
+.Cards_B{
+  margin-top: 100px;
+ margin-right: 500px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
 
 .cardOne{
   background-color: rgb(248, 246, 212);
@@ -809,13 +819,6 @@ textarea:focus {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
   
 }
-.Cards_B{
-  margin-top: 100px;
-  margin-right: 100px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
-}
 
 
 
@@ -877,13 +880,14 @@ textarea:focus {
     text-align: center !important;
     margin-right: 50px !important;
     font-size: 13px !important;
-    top: 40px;
+    top: 45px;
   }
   .Cards_A{
      flex-direction: column-reverse !important;
      text-align: center !important;
      width: auto !important;
      margin-right: 0px !important;
+     margin-top: 300px !important;
      margin-left: auto !important;
      align-items: center;
   }
@@ -920,14 +924,58 @@ textarea:focus {
 
 }
 
-@media only screen and (max-width: 1100px) {
-  .Cards_B{
-    margin-right: auto !important;
- 
-  }
-
+@media only screen and (max-width: 1340px) {
   .Cards_A{
-   margin-right: auto !important;
-   
+    margin-top: 300px;
+    margin-right: 0px !important;
+    margin-left: 40px !important;
+    display: flex;
+    justify-content: center;
   }
+  .Cards_B{
+    margin-top: 100px;
+   margin-right: 0px !important;
+    margin-left: 40px !important;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
 }
+
+
+@media only screen and (max-width: 1600px) {
+.Cards_A{
+  margin-top: 400px ;
+  margin-right: 40px !important;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.Cards_B{
+  margin-top: 300px;
+ margin-right: 40px !important;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 1800px) {
+  .Cards_A{
+    margin-top: 400px;
+    margin-right: 80px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: center;
+  }
+  .Cards_B{
+    margin-top: 300px;
+   margin-right: 80px;
+    margin-left: -100px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  }
