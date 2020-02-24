@@ -1,8 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import CardOne from "../components/card"
-import CardTwo from "../components/cardTwo"
+
 
 
 export default class IndexPage extends React.Component {
@@ -28,6 +27,7 @@ export default class IndexPage extends React.Component {
             <h1 className="SiteTitle">FontsGo</h1>
           </div>
           </div>
+        
           <form >
 
             <textarea
@@ -37,11 +37,129 @@ export default class IndexPage extends React.Component {
               onInput={this.handleInputChange}
             />
           </form>
-          <CardOne />
-          <CardTwo />
-          <div>
+          <div className="card_wrapper">
+          <div className="cardOne" id="test">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
             {this.state.TextName}
-          </div>
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="cardOne" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
       </Layout>
     )
   }
