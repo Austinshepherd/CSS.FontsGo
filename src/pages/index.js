@@ -17,10 +17,7 @@ export default class IndexPage extends React.Component {
       [name]: value,
     })
   }
-  handleKeyPress = event => {
-    event.preventDefault()
-    alert(`Welcome ${this.state.TextName}`)
-  }
+  
   render() {
     return (
       <Layout>
@@ -31,17 +28,20 @@ export default class IndexPage extends React.Component {
             <h1 className="SiteTitle">FontsGo</h1>
           </div>
           </div>
-          <form>
+          <form >
 
             <textarea
               type="text"
               name="TextName"
-              value={this.state.Text}
-              onKeyPress={this.handleKeyPress}
+              value={this.state.TextName}
+              onInput={this.handleInputChange}
             />
           </form>
           <CardOne />
           <CardTwo />
+          <div>
+            {this.state.TextName}
+          </div>
       </Layout>
     )
   }
