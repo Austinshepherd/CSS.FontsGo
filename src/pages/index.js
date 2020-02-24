@@ -1,4 +1,5 @@
 import React from "react"
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import CardOne from "../components/card"
@@ -6,7 +7,7 @@ import CardTwo from "../components/cardTwo"
 
 
 
-const Home = () => (
+const Home = (props) => (
   
   <Layout>
     <SEO title="Home" />
@@ -17,12 +18,16 @@ const Home = () => (
     </div>
 
     <div className="form_container">
+    <KeyboardEventHandler
+    handleKeys={['a', 'b', 'c']}
+    onKeyEvent={(key, e) => console.log(`do something upon keydown event of ${key}`)} >
       <form>
         <p className="input_lbl">Type here:</p>
         <div className="textarea-border">
         <textarea rows="5" cols="120"></textarea>
         </div>
       </form>
+      </KeyboardEventHandler>
     </div>
     </div>
     <CardOne />
