@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
             />
           </form>
           <div className="card_wrapper">
-          <div className="cardOne" id="test">
+          <div className="card" id="test">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -60,7 +60,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test3">
+    <div className="card" id="test3">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -71,7 +71,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test4">
+    <div className="card" id="test4">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -82,7 +82,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -93,7 +93,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -104,7 +104,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -115,7 +115,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -126,7 +126,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -137,7 +137,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -148,7 +148,48 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="card" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="card" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div> <div className="card" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div> <div className="card" id="test2">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+        </div>
+    </div> <div className="card" id="test2">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
