@@ -23,7 +23,7 @@ export default class IndexPage extends React.Component {
         <SEO title="Home" />
         <div className="header_background">
           <div className="title_container">
-            <p className="SiteSubTitle">A default CSS font generator</p>
+            <p className="SiteSubTitle">Web Safe CSS Fonts</p>
             <h1 className="SiteTitle">FontsGo</h1>
           </div>
           </div>
@@ -60,7 +60,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="cardOne" id="test3">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
@@ -71,7 +71,7 @@ export default class IndexPage extends React.Component {
             </div>
         </div>
     </div>
-    <div className="cardOne" id="test2">
+    <div className="cardOne" id="test4">
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
