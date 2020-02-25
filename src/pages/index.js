@@ -33,7 +33,7 @@ export default class IndexPage extends React.Component {
             <textarea
               type="text"
               name="TextName"
-              value={this.state.TextName}
+              defaultValue={this.state.TextName}
               onInput={this.handleInputChange}
             />
           </form>
