@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           <div className="pride_msg">
-          © {new Date().getFullYear()}, Built by Austin Shepherd
+          © {new Date().getFullYear()}, built by Austin Shepherd
           </div> 
         </footer>
     

@@ -657,6 +657,16 @@ body{
 h1{
   font-family: "Arial Black", Gadget, sans-serif;
   color: rgb(92, 92, 92) !important;
+  text-shadow: hsla(0, 0%, 0%, 0.8) !important;
+}
+h3{
+  color: rgb(251, 242, 224);
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 10px;
+}
+p{
+  padding: 30px;
 }
 textarea{
   position: fixed;
@@ -691,6 +701,7 @@ textarea{
     top: 30px;
     font-size: 90px;
     color: rgb(54, 54, 54);
+    text-shadow: 2px 2px 0px hsla(0, 3%, 73%, 0.8) !important;
 }
 .SiteSubTitle{
   position: fixed;
@@ -699,7 +710,7 @@ textarea{
 
   text-align: center !important;
   font-size: 26px;
-  top: 90px;
+  top: 130px;
   color: rgb(67, 135, 180);
 }
 footer{
@@ -729,7 +740,7 @@ textarea:focus {
 .card{
   background-color: rgb(105, 105, 105);
   width: 250px;
-  height: 230px;
+  height: 240px;
   display: block;
   text-align: center;
   border-radius: 10px;
@@ -794,6 +805,10 @@ textarea:focus {
     top: 75px !important;
     
   }
+  .SiteTitle{
+   
+    text-shadow: 1px 1px 0px hsla(0, 3%, 73%, 0.8) !important;
+}
   h1{
     font-size: 40px !important;
     top: 10px !important;
@@ -805,7 +820,7 @@ textarea:focus {
     transform: translateX(-50%) !important;
     text-align: center !important;
     font-size: 16px;
-    top: 22px;
+    top: 48px;
   }
   .card_wrapper{
     margin-top: 300px !important;
@@ -836,18 +851,34 @@ textarea:focus {
     
   }
   #test{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
    #test2{
-    font-family: sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
   #test3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Charcoal, sans-serif;
   }
   #test4{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  #test5{
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  #test6{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #test7{
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  #test8{
+    font-family: "Courier New", Courier, monospace;
+  }
+  #test9{
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+  #test10{
+    font-family: "Lucida Console", Monaco, monospace;
   }
 
-  p{
-    padding: 30px;
-  }
+  
