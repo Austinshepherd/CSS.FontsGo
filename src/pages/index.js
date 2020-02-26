@@ -25,6 +25,7 @@ export default class IndexPage extends React.Component {
           <div className="title_container">
           <h1 className="SiteTitle">FontsGo</h1>
             <p className="SiteSubTitle">Web Safe CSS Fonts</p>
+            <p className="caution">(fonts will vary based on operating system)</p>
           </div>
           </div>
         

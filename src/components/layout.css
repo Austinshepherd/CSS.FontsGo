@@ -668,6 +668,12 @@ h3{
 p{
   padding: 30px;
 }
+.caution{
+  text-align: center;
+  margin-top: -50px;
+  color: rgb(98, 98, 98);
+  font-size: 14.5px;
+}
 textarea{
   position: block;
   resize: none;
@@ -800,6 +806,12 @@ textarea:focus::placeholder{
     font-size: 100%;
     width: 100% !important;
 
+  }
+  .caution{
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(98, 98, 98);
+    font-size: 12px;
   }
   textarea{
     margin-top: 100px;
