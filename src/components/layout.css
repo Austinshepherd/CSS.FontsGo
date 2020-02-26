@@ -826,7 +826,7 @@ textarea:focus::placeholder{
     top: 22px;
   }
   .card_wrapper{
-    margin-top: 60px !important;
+    margin-top: 50px !important;
   }
 
 }
