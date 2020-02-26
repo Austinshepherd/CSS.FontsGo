@@ -35,6 +35,7 @@ export default class IndexPage extends React.Component {
               name="TextName"
               defaultValue={this.state.TextName}
               onInput={this.handleInputChange}
+              placeholder="type here"
             />
           </form>
           <div className="card_wrapper">
