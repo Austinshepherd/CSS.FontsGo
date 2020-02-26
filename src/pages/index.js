@@ -23,8 +23,8 @@ export default class IndexPage extends React.Component {
         <SEO title="Home" />
         <div className="header_background">
           <div className="title_container">
+          <h1 className="SiteTitle">FontsGo</h1>
             <p className="SiteSubTitle">Web Safe CSS Fonts</p>
-            <h1 className="SiteTitle">FontsGo</h1>
           </div>
           </div>
         
