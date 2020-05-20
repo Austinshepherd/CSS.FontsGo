@@ -526,4 +526,4 @@ export default class IndexPage extends React.Component {
       </Layout>
     )
   }
-}
+};
