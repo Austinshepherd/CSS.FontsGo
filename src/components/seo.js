@@ -40,7 +40,7 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: `FontsGO`,
           content: title,
         },
         {
