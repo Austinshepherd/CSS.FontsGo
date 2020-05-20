@@ -24,8 +24,8 @@ export default class IndexPage extends React.Component {
         <div className="header_background">
           <div className="title_container">
           <h1 className="SiteTitle">FontsGo</h1>
-            <p className="SiteSubTitle">Web Safe CSS Fonts</p>
-            <p className="caution">(fonts will vary depending on your on operating system)</p>
+            <p className="SiteSubTitle">CSS Fonts</p>
+            <p className="caution">(fonts vary by operating system)</p>
           </div>
           </div>
         
@@ -40,6 +40,200 @@ export default class IndexPage extends React.Component {
             />
           </form>
           <div className="card_wrapper">
+          <div className="card" id="test26">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3> Comic Sans MS, Comic Sans, cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test35">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Chalkduster, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test27">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Apple Chancery, cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test28">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Bradley Hand, cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test29">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Brush Script MT, "Brush Script Std", cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test33">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Impact, fantasy</h3>
+        </div>
+    </div>
+   
+    <div className="card" id="test31">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>URW Chancery L, cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test40">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Trattatello, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test30">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Snell Roundhand, cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test34">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Luminari, fantasy</h3>
+        </div>
+    </div>
+   
+    <div className="card" id="test36">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Jazz LET, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test37">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Blippo, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test38">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Stencil Std, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test39">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>Marker Felt, fantasy</h3>
+        </div>
+    </div>
+    <div className="card" id="test32">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>cursive</h3>
+        </div>
+    </div>
+    <div className="card" id="test41">
+        <div className="card_container">
+            <div className="output_card_background">
+                 <div id="root">
+                 <p>
+            {this.state.TextName}
+        </p>
+                </div>
+            </div>
+            <h3>fantasy</h3>
+        </div>
+    </div>
           <div className="card" id="test">
         <div className="card_container">
             <div className="output_card_background">
@@ -328,199 +522,6 @@ export default class IndexPage extends React.Component {
             <h3>monospace</h3>
         </div>
     </div>
-    <div className="card" id="test26">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3> Comic Sans MS, Comic Sans, cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test27">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Apple Chancery, cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test28">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Bradley Hand, cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test29">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Brush Script MT, "Brush Script Std", cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test30">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Snell Roundhand, cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test31">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>URW Chancery L, cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test32">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>cursive</h3>
-        </div>
-    </div>
-    <div className="card" id="test33">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Impact, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test34">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Luminari, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test35">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Chalkduster, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test36">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Jazz LET, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test37">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Blippo, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test38">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Stencil Std, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test39">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Marker Felt, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test40">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>Trattatello, fantasy</h3>
-        </div>
-    </div>
-    <div className="card" id="test41">
-        <div className="card_container">
-            <div className="output_card_background">
-                 <div id="root">
-                 <p>
-            {this.state.TextName}
-        </p>
-                </div>
-            </div>
-            <h3>fantasy</h3>
-        </div>
-    </div>
-   
     </div>
       </Layout>
     )

@@ -647,16 +647,16 @@ pre tt:after {
 /* Custom!!!!!! */
 body{
   text-align: center;
-  width: 100%;
+  width: 100%;  
   padding: none;
   margin: none;
   width: 100%;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(237, 237, 237);
 }
 
 h1{
   font-family: "Arial Black", sans-serif;
-  color: rgb(226, 226, 226) !important;
+  color: rgb(80, 80, 80) !important;
   text-shadow: hsla(0, 0%, 21%, 0.8) !important;
 }
 h3{
@@ -671,25 +671,26 @@ p{
 .caution{
   text-align: center;
   margin-top: -50px;
-  color: rgb(98, 98, 98);
+  color: rgb(58, 58, 58);
   font-size: 14.5px;
 }
 textarea{
   position: block;
   resize: none;
   border-style: solid;
-  border-width: 4px;
+  border-width: 2px;
   border-radius: 10px;
-  border-color: rgb(121, 121, 121);
-  background-color: rgb(121, 121, 121);e
+  border-color: rgb(84, 84, 84);
+  background-color: rgb(237, 237, 237);e
   text-align: center;
   width: 30% !important;
+  font-family: sans-serif;
   margin-top: 200px;
   margin-bottom: 0;
   height: 40px;
   color: rgb(58, 58, 58);
   text-indent: 10px;
-  box-shadow: 0px 0px 20px rgba(75, 75, 75, 0.6);
+  box-shadow: 0px 0px 20px rgba(75, 75, 75, 0.3);
 
 }
 .title_container{
@@ -716,7 +717,7 @@ textarea{
   text-align: center !important;
   font-size: 26px;
 
-  color: rgb(70, 104, 104);
+  color: rgb(193, 99, 49);
 }
 footer{
   position: relative;
@@ -740,19 +741,18 @@ footer{
 textarea:focus {
   outline-width: 0;
   background-color: rgb(235, 235, 235);
-  border-color: rgb(235, 235, 235);
 }
 
 
 .card{
-  background-color:  rgb(70, 104, 104);
+  background-color:  rgb(211, 82, 35);
   width: 250px;
   height: 240px;
   display: block;
   text-align: center;
   border-radius: 10px;
   margin: 20px;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.9);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 
