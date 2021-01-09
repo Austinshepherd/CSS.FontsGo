@@ -678,20 +678,18 @@ p{
 textarea{
   position: block;
   resize: none;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 10px;
-  border-color: rgb(84, 84, 84);
-  background-color: rgb(237, 237, 237);
+  border-style: none;
+  border-radius: 5px;
   text-align: center;
-  width: 30% !important;
+  width: 3 80%;
+  max-with: 700px;
   font-family: sans-serif;
   margin-top: 200px;
   margin-bottom: 0;
   height: 40px;
-  color: rgb(58, 58, 58);
+  color: white;
   text-indent: 10px;
-  box-shadow: 0px 0px 20px rgba(75, 75, 75, 0.3);
+  box-shadow: 0px 1px 7px 2px rgb(39 39 39 / 10%);;
 
 }
 .title_container{
