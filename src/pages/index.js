@@ -44,7 +44,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -56,7 +56,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -68,7 +68,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -80,7 +80,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -91,7 +91,7 @@ export default class IndexPage extends React.Component {
     <div className="card" id="test29">
         <div className="card_container">
             <div className="output_card_background">
-                 <div id="root">
+                 <div id="root" className="CrdTxt">
                  <p>
             {this.state.TextName}
         </p>
@@ -104,7 +104,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -117,7 +117,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -129,7 +129,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -141,7 +141,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -153,7 +153,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -166,7 +166,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -178,7 +178,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -190,7 +190,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
@@ -202,7 +202,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <p>
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
