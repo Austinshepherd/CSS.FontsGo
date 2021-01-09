@@ -31,7 +31,7 @@ export default class CardOne extends React.Component {
     <div className="cardTwo">
     <div className="card_container">
         <div className="output_card_background">
-        <p>
+        <p className="CrdTxt">
             {this.state.TextName}
         </p>
         </div>
