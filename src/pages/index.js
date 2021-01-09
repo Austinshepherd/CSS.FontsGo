@@ -430,7 +430,7 @@ export default class IndexPage extends React.Component {
         <div className="card_container">
             <div className="output_card_background">
                  <div id="root">
-                 <pclassName="CrdTxt">
+                 <p className="CrdTxt">
             {this.state.TextName}
         </p>
                 </div>
