@@ -694,6 +694,7 @@ textarea{
 }
 .CrdTxt{
   padding-top: 60px;
+  color: #3e3e3e;
 }
 .title_container{
   width: 100%;
@@ -754,7 +755,7 @@ textarea:focus {
 
 .output_card_background{
   display: block;
-  background-color: rgb(240, 240, 240);
+  background-color: white;
   height: 150px;
   margin: auto;
   margin-top: 20px;
