@@ -5,6 +5,7 @@
     width: 100% !important;
 
   }
+  
 }
 
 
@@ -745,14 +746,14 @@ textarea:focus {
 
 
 .card{
-  background-color:  #686868;
+  background-color:  white;
   width: 250px;
   height: 240px;
   display: block;
   text-align: center;
   border-radius: 10px;
   margin: 20px;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 4px rgb(0 0 0 / 3%);
 }
 
 
@@ -815,8 +816,6 @@ textarea:focus::placeholder{
   }
   textarea{
     margin-top: 100px;
-    width: 55% !important;
-    
   }
   .textarea-border{
     top: 75px !important;
@@ -840,6 +839,23 @@ textarea:focus::placeholder{
   }
 
 }
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+    width: 100% !important;
+
+  }
+  .card{
+    width: 80%;
+    
+  }
+}
+textarea {
+
+    width: 80%;
+    padding: 10px;
+}
+
 
 @media only screen and (max-width: 1340px) {
  
